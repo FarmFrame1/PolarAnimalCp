@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "bilibili.uid3546608912304669.polar_animal_cp.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"FoxEntityMixin",
+		"PlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	},
+	"client": [],
+	"server": []
+}

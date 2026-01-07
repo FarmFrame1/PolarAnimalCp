@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "polar-animal-cp",
+	"version": "${version}",
+	"name": "Polar Animal CP",
+	"description": "\u72d0\u531799",
+	"authors": [
+		"FarmFrame"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/polar-animal-cp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bilibili.uid3546608912304669.polar_animal_cp.PolarAnimalCP"
+		],
+		"client": [
+			"bilibili.uid3546608912304669.polar_animal_cp.PolarAnimalCPClient"
+		],
+		"fabric-datagen": [
+			"bilibili.uid3546608912304669.polar_animal_cp.PolarAnimalCPDataGenerator"
+		]
+	},
+	"mixins": [
+		"polar-animal-cp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

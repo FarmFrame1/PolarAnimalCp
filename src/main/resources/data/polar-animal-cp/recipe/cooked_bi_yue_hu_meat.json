@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "polar-animal-cp:bi_yue_hu_meat"
+  },
+  "result": {
+    "id": "polar-animal-cp:cooked_bi_yue_hu_meat"
+  }
+}

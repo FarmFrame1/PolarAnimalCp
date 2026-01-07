@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "polar-animal-cp:fox"
+  },
+  "result": {
+    "id": "polar-animal-cp:cooked_fox"
+  }
+}
